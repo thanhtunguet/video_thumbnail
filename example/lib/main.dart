@@ -113,7 +113,7 @@ Future<ThumbnailResult> genThumbnail(ThumbnailRequest r) async {
 class GenThumbnailImage extends StatefulWidget {
   final ThumbnailRequest thumbnailRequest;
 
-  const GenThumbnailImage({super.key, required this.thumbnailRequest,});
+  const GenThumbnailImage({super.key, required this.thumbnailRequest});
 
   @override
   _GenThumbnailImageState createState() => _GenThumbnailImageState();
